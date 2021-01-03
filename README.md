@@ -10,17 +10,11 @@ Setup:
 In the client\ssl folder there is a server.crt file which you will need to run and put it in trusted to make it run on https. 
 <br />
 1. Double click server.crt
-<br />
 2. Click Install Certificate
-<br/>
 3. Select current user and click next
-<br/>
 4. Select place all certificates in the following store and click Browse
-<br/>
 5. Select "Trusted Root Certification and Authorities" and click ok.
-<br/>
 6. Click Next
-<br/>
 7. Click Finish
 
 <br/>
