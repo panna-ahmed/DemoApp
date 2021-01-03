@@ -36,3 +36,8 @@ How to run:
 7. run -> ng serve 
 <br/>
 
+Output:<br/>
+![Alt text](/screenshots/firefox_jGjMuJgPUe.png?raw=true "Homepage")
+
+
+
