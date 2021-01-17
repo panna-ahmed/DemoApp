@@ -36,7 +36,7 @@ namespace API.Controllers
 
             user.UserName = registerDto.Username.ToLower();
 
-            var result = await _userManager.CreateAsync(user, registerDto.Password);
+            var result = await _userManager.CreateAsync(user);
 
             if (!result.Succeeded) return BadRequest(result.Errors);
 
@@ -60,10 +60,8 @@ namespace API.Controllers
 
             if (user == null) return Unauthorized("Invalid email or password");
 
-            var result = await _signInManager
-                .CheckPasswordSignInAsync(user, loginDto.Password, false);
-
-            if (!result.Succeeded) return Unauthorized();
+            var canSignInawait = _signInManager.CanSignInAsync(user);
+            if (!canSignInawait.Result) return Unauthorized("Invalid email or password");
 
             return new UserDto
             {
