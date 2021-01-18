@@ -24,19 +24,25 @@ In the client\ssl folder there is a server.crt file which you will need to run a
 <br/>
 How to run:
 <br/>
-1. Open terminal on the demoapp folder.
+1. create a new database on sql server
 <br/>
-2. run -> cd api
+2. update appsettings.development.config and set DefaultConnection with the connection string. 
 <br/>
-3. run -> dotnet run
+3. Open terminal on the demoapp folder.
 <br/>
-4. Open another terminal on the demoapp folder.
+4. run -> cd api
 <br/>
-5. run -> cd client
+5. run -> dotnet ef database update
 <br/>
-6. run -> npm install 
+6. run -> dotnet run
 <br/>
-7. run -> ng serve 
+7. Open another terminal on the demoapp folder.
+<br/>
+8. run -> cd client
+<br/>
+9. run -> npm install 
+<br/>
+10. run -> ng serve 
 <br/>
 <br/>
 Output:<br/>
