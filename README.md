@@ -40,7 +40,7 @@ How to run:
 <br/>
 <br/>
 Output:<br/>
-![Alt text](/screenshots/6SpUvzfD24.png?raw=true "Homepage")
+![Alt text](/screenshots/0NHQg3j5V8.png?raw=true "Homepage")
 
 
 
