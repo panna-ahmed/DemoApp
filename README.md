@@ -3,9 +3,13 @@
 Technologies used: <br/>
 asp dotnet core 5 <br/>
 angular 9 <br/>
-sqlite <br/>
+sql server <br/>
 <br/>
 Setup:
+<br/>
+Install nodejs from https://nodejs.org/en/download/
+<br/>
+Install dotnet from https://dotnet.microsoft.com/download/dotnet/5.0
 <br/>
 In the client\ssl folder there is a server.crt file which you will need to run and put it in trusted to make it run on https. 
 <br />
@@ -16,7 +20,6 @@ In the client\ssl folder there is a server.crt file which you will need to run a
 5. Select "Trusted Root Certification and Authorities" and click ok.
 6. Click Next
 7. Click Finish
-
 <br/>
 <br/>
 How to run:
@@ -37,7 +40,7 @@ How to run:
 <br/>
 <br/>
 Output:<br/>
-![Alt text](/screenshots/firefox_jGjMuJgPUe.png?raw=true "Homepage")
+![Alt text](/screenshots/6SpUvzfD24.png?raw=true "Homepage")
 
 
 
