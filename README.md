@@ -40,7 +40,7 @@ How to run:
 <br/>
 <br/>
 Output:<br/>
-<img alt="Homepage" src="../screenshots/0NHQg3j5V8.png?raw=true">
+<img alt="Homepage" src="../master/screenshots/0NHQg3j5V8.png?raw=true">
 
 
 
